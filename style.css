@@ -5,13 +5,12 @@ html {
 }
 
 body {
+  color: #fff !important;
   min-height: 100%;
   min-width: 100%;
-  background: linear-gradient(pink, violet);
-}
-
-button {
-  font-size: 7px;
+  background-color: #2a2a72;
+  background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+  font-size: 1.5em;
 }
 
 #main-content {
@@ -20,14 +19,16 @@ button {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 1px solid #333;
-  background: rgba(255, 255, 255, 0.3);
   padding: 15px 20px 18px 18px;
   border-radius: 5px;
-  box-shadow: 2px 5px 5px #333;
 }
 
+h2,h5 {
+  text-align: center;
+  color: #333;
+}
 #list {
+  min-width: 25em;
   margin: 10px;
   border: 1px solid #333;
   background: rgba(255, 255, 255, 0.75);
@@ -35,3 +36,17 @@ button {
   border-radius: 5px;
   box-shadow: 2px 5px 5px #333;
 }
+
+
+
+
+table {
+  margin: 0 auto;
+  text-align: center;
+  color: #333;
+}
+
+th {
+  margin: 1em;
+}
+
